@@ -43,7 +43,7 @@ namespace Api1.Controllers
             }
             else
             {
-                database.Entry(tt).State= System.Data.Entity.EntityState.Modified;
+                database.Entry(obj).State= System.Data.Entity.EntityState.Modified;
                 database.SaveChanges();
 
             }
